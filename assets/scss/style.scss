@@ -1,0 +1,154 @@
+body, html {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  padding-top: 50px;
+}
+
+.active {
+  border-bottom: 3px solid #fff;
+}
+
+.navbar {
+  font-size: 16px;
+  margin: 0;
+}
+
+body.login-form {
+  background: url('/public/img/login.jpg') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#login-form {
+  position: absolute;
+  top: 20%;
+  opacity: .8;
+}
+
+#register-form {
+  position: absolute;
+  top: 10%;
+  opacity: .8;
+}
+
+hr.hr-login {
+  border-top: 1px solid #8c8b8b;
+  text-align: center;
+}
+
+hr.hr-login:after {
+  content: 'Don\'t have an account';
+  display: inline-block;
+  position: relative;
+  top: -14px;
+  padding: 0 10px;
+  background: #f0f0f0;
+  color: #8c8b8b;
+  font-size: 18px;
+}
+
+hr.hr-register {
+  border-top: 1px solid #8c8b8b;
+  text-align: center;
+}
+
+hr.hr-register:after {
+  content: 'Already have an account';
+  display: inline-block;
+  position: relative;
+  top: -14px;
+  padding: 0 10px;
+  background: #f0f0f0;
+  color: #8c8b8b;
+  font-size: 18px;
+}
+
+.text-white {
+  color: #fff;
+}
+
+#services {
+  margin-top: 10px;
+}
+
+#intro {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 230px;
+}
+
+.mt-50 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+header {
+  position: relative;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  background-image: url("/public/img/header.jpg");
+  text-align: center;
+  color: white;
+}
+
+header .header-content {
+  position: relative;
+  text-align: center;
+  padding: 100px 15px 100px;
+  width: 100%;
+}
+
+header .header-content .header-content-inner h1 {
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 30px;
+}
+
+header .header-content .header-content-inner hr {
+  margin: 30px auto;
+}
+
+header .header-content .header-content-inner p {
+  font-weight: 300;
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 16px;
+  margin-bottom: 50px;
+}
+
+@media (min-width: 768px) {
+  header {
+    min-height: 100%;
+  }
+  header .header-content {
+    position: absolute;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    padding: 0 50px;
+  }
+  header .header-content .header-content-inner {
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  header .header-content .header-content-inner h1 {
+    font-size: 50px;
+  }
+  header .header-content .header-content-inner p {
+    font-size: 18px;
+    max-width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}

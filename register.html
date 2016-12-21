@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8"/>
+    <title> Signup - </title>
+    <!-- Load Stylesheets File Below -->
+    <link href="public/css/app.css" rel="stylesheet"/>
+</head>
+<body class="login-form">
+<div class="row">
+    <div class="col-sm-4 col-sm-offset-4" id="register-form">
+        <div class="panel panel-primary">
+            <div class="panel-heading">
+                <h4 class="text-center">Create Account</h4>
+            </div>
+            <div class="panel-body">
+                <div class="row">
+                    <div class="col-sm-12">
+                        <form action="index.html" method="post">
+                            <div class="form-group">
+                                <label for="name">Full Name</label>
+                                <input type="text" name="name" class="form-control" id="name" placeholder="Full Name">
+                            </div>
+                            <div class="form-group">
+                                <label for="email">Email Address</label>
+                                <input type="email" name="email" class="form-control" id="email" placeholder="Email">
+                            </div>
+                            <div class="form-group">
+                                <label for="password">Password</label>
+                                <input type="password" name="password" class="form-control" id="password"
+                                       placeholder="Password">
+                            </div>
+                            <div class="form-group">
+                                <label for="confirm_password">Confirm Password</label>
+                                <input type="password" class="form-control" id="confirm_password"
+                                       placeholder="Retype Password" name="password_confirmation">
+                            </div>
+                            <button type="submit" class="btn btn-success pull-right">Register</button>
+                        </form>
+                    </div>
+
+                </div>
+                <hr class="hr-register">
+                <div class="row">
+                    <div class="col-sm-12">
+                        <div class="col-sm-4 col-sm-offset-4">
+                            <a href="login.html" class="btn btn-primary text-center">Login</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+<!-- Load Script File Below -->
+<script src="public/js/app.js"></script>
+</body>
+</html>
